@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: none;
 }
 
 body,
@@ -83,6 +84,17 @@ a {
 @media screen and (max-width: 767px) {
   #top-bar {
     display: none;
+  }
+
+  #wide-nav {
+    background: url("../img/vinyl-3557749__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+  }
+
+  #wide-nav button {
+    border: 2px solid black;
   }
 
   #wide-nav .navbar img {
