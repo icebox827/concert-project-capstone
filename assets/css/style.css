@@ -6,3 +6,40 @@
 body {
   font-family: lato, cocogoose;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top-bar {
+  background-color: #272A31;
+}
+
+#top-bar a {
+  color: #D3D3D3;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+#wide-nav {
+  background-color: #fffbfb;
+}
+
+#wide-nav .navbar img {
+  width: 120px;
+  height: 80px;
+}
+
+#wide-nav .navbar h5 {
+  color: #272A31;
+}
+
+@media screen and (max-width: 767px) {
+  #top-bar {
+    display: none;
+  }
+}
