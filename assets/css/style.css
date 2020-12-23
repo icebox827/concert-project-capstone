@@ -42,4 +42,13 @@ a {
   #top-bar {
     display: none;
   }
+
+  #wide-nav .navbar img {
+    display: none;
+  }
+
+  #wide-nav .navbar h5 {
+    display: none;
+  }
+
 }
