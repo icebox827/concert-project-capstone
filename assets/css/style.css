@@ -40,6 +40,11 @@ a {
   color: #272a31;
 }
 
+.cover-text {
+  position: relative;
+  top: 60px;
+}
+
 .cover-image {
   position: relative;
   background-image: url("../img/crowd-1056764__340.webp");
@@ -71,6 +76,7 @@ a {
 .info-box {
   width: 100%;
   height: auto;
+  margin-top: 95px;
   border: 1px solid #fff;
   box-sizing: border-box;
   padding: 7px;
@@ -78,6 +84,7 @@ a {
 }
 
 .info-date {
+  margin-top: 25px;
   color: #272a31;
 }
 
