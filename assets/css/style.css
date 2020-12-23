@@ -3,8 +3,8 @@
   padding: 0;
 }
 
-body, html {
-  font-family: lato, cocogoose;
+body,
+html {
   height: 100%;
 }
 
@@ -17,11 +17,11 @@ a {
 }
 
 #top-bar {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 #top-bar a {
-  color: #D3D3D3;
+  color: #d3d3d3;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -36,7 +36,7 @@ a {
 }
 
 #wide-nav .navbar h5 {
-  color: #272A31;
+  color: #272a31;
 }
 
 .cover-image {
@@ -57,27 +57,27 @@ a {
 }
 
 .cover-gradient .cover-text h2 {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .cover-gradient .cover-text h1 {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 48px;
   text-transform: uppercase;
   font-weight: 800;
 }
-  
+
 .info-box {
   width: 100%;
   height: auto;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   padding: 7px;
-  box-shadow: 5px #272A31;
+  box-shadow: 5px #272a31;
 }
 
 .info-date {
-  color: #272A31;
+  color: #272a31;
 }
 
 @media screen and (max-width: 767px) {
@@ -92,5 +92,4 @@ a {
   #wide-nav .navbar h5 {
     display: none;
   }
-
 }
