@@ -6,7 +6,7 @@ Design idea by Cindy Shin in Behance
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is the Microverse third week project
+> Project's Screeshot
 
 ![app_screenshot.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot.png?raw=true)
 ![app_screenshot1.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot1.png?raw=true)
