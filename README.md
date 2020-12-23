@@ -1,6 +1,9 @@
 # concert-project-capstone
 Microverse Capstone Project
 
+# Credits
+Design idea by Cindy Shin in Behance
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > This is the Microverse third week project
