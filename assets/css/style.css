@@ -212,8 +212,17 @@ table {
   background-color: #e9f2f5;
 }
 
-.main-footer {
+#main-footer {
   background-color: #272a31;
+}
+
+.footer-nav img {
+  width: 100px;
+  height: 45px;
+}
+
+.footer-nav h5 {
+    color: #d3d3d3;
 }
 
 @media screen and (max-width: 767px) {
