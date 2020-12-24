@@ -122,7 +122,7 @@ a {
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 .info-box {
@@ -142,9 +142,9 @@ a {
 }
 
 .info-box-about {
-  max-width: 480px;
+  width: 100%;
   height: auto;
-  margin-top: 50px;
+  margin-top: 45px;
   border: 1px solid #fff;
   box-sizing: border-box;
   padding: 7px;
@@ -155,15 +155,15 @@ a {
 }
 
 .info-date-about {
-  margin-top: 65px;
+  margin-top: 55px;
   color: #272a31;
   text-align: center;
   padding: 5px;
 }
 
-.ticket-text h2 {
+.ticket-text h1 {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 16px;
 }
 
 .ticket-box {
@@ -180,7 +180,7 @@ a {
 .content-table {
   border-collapse: collapse;
   margin: 25px 0;
-  overflow-x: auto;
+  
 }
 
 .responsive-table {
@@ -213,9 +213,12 @@ table {
   background-color: #e9f2f5;
 }
 
+.ticket-box .my-button {
+  margin: 0 auto;
+}
+
 #main-footer {
   background-color: #272a31;
-  margin-top: 33px;
 }
 
 .footer-nav img {
@@ -225,10 +228,6 @@ table {
 
 .footer-nav h5 {
   color: #d3d3d3;
-}
-
-.footer-nav ul{
-  overflow-y: hidden;
 }
 
 @media screen and (max-width: 767px) {
@@ -252,6 +251,10 @@ table {
   }
 
   #wide-nav .navbar h5 {
+    display: none;
+  }
+
+  #main-footer {
     display: none;
   }
 }
