@@ -52,9 +52,18 @@ a {
   background-color: #fffbfb;
 }
 
+.footer-nav img {
+  width: 85px;
+  height: 45px;
+}
+
 #wide-nav .navbar img {
   width: 120px;
   height: 80px;
+}
+
+.footer-nav h5 {
+  color: #d3d3d3;
 }
 
 #wide-nav .navbar h5 {
@@ -109,6 +118,11 @@ a {
   color: #ec5242;
 }
 
+.ticket-text h1 {
+  text-align: center;
+  margin-top: 16px;
+}
+
 .cover-gradient .cover-text h1 {
   color: #ec5242;
   font-size: 48px;
@@ -159,11 +173,6 @@ a {
   color: #272a31;
   text-align: center;
   padding: 5px;
-}
-
-.ticket-text h1 {
-  text-align: center;
-  margin-top: 16px;
 }
 
 .ticket-box {
@@ -218,15 +227,6 @@ table {
 
 #main-footer {
   background-color: #272a31;
-}
-
-.footer-nav img {
-  width: 85px;
-  height: 45px;
-}
-
-.footer-nav h5 {
-  color: #d3d3d3;
 }
 
 @media screen and (max-width: 767px) {
