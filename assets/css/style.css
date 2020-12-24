@@ -163,6 +163,7 @@ a {
 
 .ticket-text h2 {
   text-align: center;
+  margin-top: 55px;
 }
 
 .ticket-box {
@@ -188,19 +189,19 @@ a {
 
 table {
   width: 100%;
-  border: 3px dashed red;
+  border: 5px dashed red;
 }
 
 .content-table thead th {
   background-color: #d3d3d3;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #272a31;
   padding: 15px;
 }
 
 .content-table tbody td {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #272a31;
   padding: 15px;
 }
 
@@ -214,15 +215,20 @@ table {
 
 #main-footer {
   background-color: #272a31;
+  margin-top: 33px;
 }
 
 .footer-nav img {
-  width: 100px;
+  width: 85px;
   height: 45px;
 }
 
 .footer-nav h5 {
-    color: #d3d3d3;
+  color: #d3d3d3;
+}
+
+.footer-nav ul{
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 767px) {
