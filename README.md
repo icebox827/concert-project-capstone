@@ -1,6 +1,10 @@
 # concert-project-capstone
 Microverse Capstone Project
 
+# Rock Concert Page
+It is a front-end web development project. This project is about building a website for a concert using technologies like HTML, CSS, and Bootstrap. In this project, we have a portal and two links, one is the about page and the other to book tickets for the concert.
+It's a responsive project suitable for mobile and desktop views.
+
 # Credits
 Design idea by Cindy Shin in Behance
 
@@ -10,6 +14,9 @@ Design idea by Cindy Shin in Behance
 
 ![app_screenshot.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot.png?raw=true)
 ![app_screenshot1.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot1.png?raw=true)
+![app_screenshot2.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot2.png?raw=true)
+![app_screenshot3.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot3.png?raw=true)
+![app_screenshot4.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot4.png?raw=true)
 
 ## Built With
 
@@ -20,7 +27,6 @@ Design idea by Cindy Shin in Behance
 ## Live Demo
 
 [Live Demo Link]( https://icebox827.github.io/concert-project-capstone/.)
-
 
 ## Getting Started
 
@@ -42,7 +48,6 @@ Get a local copy up and running follow these simple example steps.
 - GitHub: [@icebox827](https://github.com/icebox827)
 - Twitter: [@heracles2k5](https://twitter.com/@heracles2k5)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-lafontant-37031439/)
-
 
 ## 🤝 Contributing
 
