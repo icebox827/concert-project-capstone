@@ -23,6 +23,11 @@ h3 {
     overflow-y: hidden;
     margin: inherit;
 }
+
+h5 {
+    overflow-y: hidden;
+    margin: inherit;
+}
    
 ul {
   list-style-type: none;
@@ -117,7 +122,7 @@ a {
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
-  margin-top: 65px;
+  margin-top: 45px;
 }
 
 .info-box {
@@ -139,18 +144,25 @@ a {
 .info-box-about {
   max-width: 480px;
   height: auto;
-  margin-top: 70px;
+  margin-top: 50px;
   border: 1px solid #fff;
   box-sizing: border-box;
   padding: 7px;
   box-shadow: 5px #272a31;
   text-align: center;
   background-color: white;
+  justify-self: center;
 }
 
 .info-date-about {
-  margin-top: 70px;
+  margin-top: 65px;
   color: #272a31;
+  text-align: center;
+  padding: 5px;
+}
+
+.ticket-text h2 {
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -177,3 +189,4 @@ a {
     display: none;
   }
 }
+
