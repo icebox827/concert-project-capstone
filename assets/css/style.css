@@ -18,17 +18,17 @@ h2 {
   overflow-y: hidden;
   margin: inherit;
 }
-  
+
 h3 {
-    overflow-y: hidden;
-    margin: inherit;
+  overflow-y: hidden;
+  margin: inherit;
 }
 
 h5 {
-    overflow-y: hidden;
-    margin: inherit;
+  overflow-y: hidden;
+  margin: inherit;
 }
-   
+
 ul {
   list-style-type: none;
 }
@@ -63,7 +63,7 @@ a {
 
 #nav-menu {
   position: relative;
-  left: 175px ;
+  left: 175px;
 }
 
 .cover-text {
@@ -165,6 +165,57 @@ a {
   text-align: center;
 }
 
+.ticket-box {
+  width: 100%;
+}
+
+.cover-ticket {
+  background-image: url("../img/mail-2485217_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  overflow-x: auto;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border: 3px dashed red;
+}
+
+.content-table thead th {
+  background-color: #d3d3d3;
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.content-table tbody td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #b2d3f8;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #e9f2f5;
+}
+
+.main-footer {
+  background-color: #272a31;
+}
+
 @media screen and (max-width: 767px) {
   #top-bar {
     display: none;
@@ -189,4 +240,3 @@ a {
     display: none;
   }
 }
-
