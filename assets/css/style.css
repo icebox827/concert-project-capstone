@@ -9,6 +9,21 @@ html {
   height: 100%;
 }
 
+h1 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h2 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+  
+h3 {
+    overflow-y: hidden;
+    margin: inherit;
+}
+   
 ul {
   list-style-type: none;
 }
