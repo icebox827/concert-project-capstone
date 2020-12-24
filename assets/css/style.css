@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 body,
@@ -38,6 +38,11 @@ a {
 
 #wide-nav .navbar h5 {
   color: #272a31;
+}
+
+#nav-menu {
+  position: relative;
+  left: 175px ;
 }
 
 .cover-text {
