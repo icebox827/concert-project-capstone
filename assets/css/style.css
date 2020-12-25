@@ -286,6 +286,10 @@ table {
   opacity: 0.7;
 }
 
+.featured-section {
+  background-color: #f0eeee;
+}
+
 .speaker-title h1 {
   color: #272a31;
   text-align: center;
