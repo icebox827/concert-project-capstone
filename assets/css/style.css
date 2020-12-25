@@ -158,7 +158,6 @@ a {
 .info-box-about {
   width: 100%;
   height: auto;
-  margin-top: 45px;
   border: 1px solid #fff;
   box-sizing: border-box;
   padding: 7px;
@@ -169,10 +168,9 @@ a {
 }
 
 .info-date-about {
-  margin-top: 55px;
   color: #272a31;
   text-align: center;
-  padding: 5px;
+  padding: 15px;
 }
 
 .ticket-box {
