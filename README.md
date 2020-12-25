@@ -26,7 +26,7 @@ Design idea by Cindy Shin in Behance
 
 ## Live Demo
 
-[Live Demo Link]( https://icebox827.github.io/concert-project-capstone/.)
+[Live Demo Link]( https://icebox827.github.io/concert-project-capstone/)
 
 ## Getting Started
 
