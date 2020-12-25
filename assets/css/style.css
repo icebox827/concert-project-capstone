@@ -340,7 +340,7 @@ table {
 }
 
 .partner-section {
-  background-color:#272a31;
+  background-color: #272a31;
 }
 
 .partner-title h1 {
@@ -365,9 +365,17 @@ table {
 }
 
 .brand h4 {
- color: #d3d3d3;
- overflow-y: hidden;
- font-size: bold;
+  color: #d3d3d3;
+  overflow-y: hidden;
+  font-size: bold;
+}
+
+#main-footer-intro {
+  background-color: #f0eeee;
+}
+
+#main-footer-intro .footer-nav h5 {
+  color: #272a31;
 }
 
 @media screen and (max-width: 767px) {
