@@ -335,7 +335,7 @@ table {
 
 .speaker hr {
   border: 1px solid #272a31;
-  width: 10%;
+  width: 20%;
   margin: 0 auto;
 }
 
@@ -378,6 +378,24 @@ table {
   color: #272a31;
 }
 
+.past-fest-title h3 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.past-fest-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.past-fest-title p {
+  color: #272a31;
+  text-align: center;
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 767px) {
   #top-bar {
     display: none;
@@ -410,5 +428,50 @@ table {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .partner-brand {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .speaker-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .speaker h3 {
+    font-size: bold;
+    text-align: center;
+  }
+  
+  .speaker h6 {
+    color: #ec5242;
+    text-align: center;
+    font-style: italic;
+    overflow-y: hidden;
+  }
+  
+  .speaker p {
+    text-align: center;
+  }
+  
+  .speaker hr {
+    border: 1px solid #272a31;
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .speaker img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
   }
 }
