@@ -41,6 +41,10 @@ a {
   background-color: #272a31;
 }
 
+.program-card .card-icon a {
+  color: #272a31;
+}
+
 #top-bar a {
   color: #d3d3d3;
   text-decoration: none;
@@ -55,6 +59,12 @@ a {
 .footer-nav img {
   width: 85px;
   height: 45px;
+}
+
+.speaker img {
+  width: 180px;
+  height: 180px;
+  float: left;
 }
 
 #wide-nav .navbar img {
@@ -114,6 +124,12 @@ a {
   opacity: 0.97;
 }
 
+.fest-date h2 {
+  font-weight: 800;
+  font-size: 120px;
+  text-align: center;
+}
+
 .cover-gradient .cover-text h2 {
   color: #ec5242;
 }
@@ -121,6 +137,24 @@ a {
 .ticket-text h1 {
   text-align: center;
   margin-top: 16px;
+}
+
+.program-title h1 {
+  color: #d3d3d3;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.speaker-title h1 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.partner-title h1 {
+  color: #f0eeee;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .cover-gradient .cover-text h1 {
@@ -239,12 +273,6 @@ table {
   background-size: cover;
 }
 
-.program-title h1 {
-  color: #d3d3d3;
-  text-align: center;
-  margin-top: 20px;
-}
-
 .program-title hr {
   border: 1px solid #ec5242;
   width: 10%;
@@ -266,13 +294,19 @@ table {
   border: none;
 }
 
-.program-card .card-icon a {
-  color: #272a31;
-}
-
 .program-card .card-title {
   color: #ec5242;
   text-align: center;
+}
+
+.speaker p {
+  padding-left: 20px;
+}
+
+.past-fest-title p {
+  color: #272a31;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .program-card .card-content p {
@@ -292,12 +326,6 @@ table {
   background-color: #f0eeee;
 }
 
-.speaker-title h1 {
-  color: #272a31;
-  text-align: center;
-  margin-top: 20px;
-}
-
 .speaker-title hr {
   border: 1px solid #ec5242;
   width: 10%;
@@ -313,12 +341,6 @@ table {
   margin: 15px;
 }
 
-.speaker img {
-  width: 180px;
-  height: 180px;
-  float: left;
-}
-
 .speaker h3 {
   font-size: bold;
   padding-left: 20px;
@@ -331,10 +353,6 @@ table {
   overflow-y: hidden;
 }
 
-.speaker p {
-  padding-left: 20px;
-}
-
 .speaker hr {
   border: 1px solid #272a31;
   width: 20%;
@@ -343,12 +361,6 @@ table {
 
 .partner-section {
   background-color: #272a31;
-}
-
-.partner-title h1 {
-  color: #f0eeee;
-  text-align: center;
-  margin-top: 20px;
 }
 
 .partner-title hr {
@@ -404,12 +416,6 @@ table {
   margin: 0 auto;
 }
 
-.past-fest-title p {
-  color: #272a31;
-  text-align: center;
-  margin-top: 15px;
-}
-
 .fest-cover-1 {
   background-image: url("../img/concert-1748102__340.webp");
   background-repeat: no-repeat;
@@ -429,12 +435,6 @@ table {
   height: 100%;
   background: linear-gradient(to top, rgb(248, 82, 82), white);
   opacity: 0.7;
-}
-
-.fest-date h2 {
-  font-weight: 800;
-  font-size: 120px;
-  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
