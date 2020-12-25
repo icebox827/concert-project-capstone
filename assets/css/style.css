@@ -43,6 +43,7 @@ a {
 
 .program-card .card-icon a {
   color: #272a31;
+  margin: 0 auto;
 }
 
 #top-bar a {
