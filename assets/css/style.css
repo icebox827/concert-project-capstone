@@ -298,6 +298,43 @@ table {
   margin: 0 auto;
 }
 
+.speaker-panel {
+  display: flex;
+}
+
+.speaker {
+  width: 100%;
+  margin: 15px;
+}
+
+.speaker img {
+  width: 180px;
+  height: 180px;
+  float: left;
+}
+
+.speaker h3 {
+  font-size: bold;
+  padding-left: 20px;
+}
+
+.speaker h6 {
+  color: #ec5242;
+  padding-left: 20px;
+  font-style: italic;
+  overflow-y: hidden;
+}
+
+.speaker p {
+  padding-left: 20px;
+}
+
+.speaker hr {
+  border: 1px solid #272a31;
+  width: 10%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 767px) {
   #top-bar {
     display: none;
