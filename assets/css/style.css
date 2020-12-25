@@ -388,7 +388,7 @@ table {
 
 .fest-card .card {
   width: 100%;
-  height: 400px;
+  height: 100%;
   margin: 10px;
 }
 
@@ -434,6 +434,7 @@ table {
 .fest-date h2 {
   font-weight: 800;
   font-size: 120px;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
