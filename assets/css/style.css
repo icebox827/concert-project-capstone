@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h2 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h3 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h5 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top-bar {
+  background-color: #272a31;
+}
+
+#top-bar a {
+  color: #d3d3d3;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#wide-nav {
+  background-color: #fffbfb;
+}
+
+.footer-nav img {
+  width: 85px;
+  height: 45px;
+}
+
+#wide-nav .navbar img {
+  width: 120px;
+  height: 80px;
+}
+
+.footer-nav h5 {
+  color: #d3d3d3;
+}
+
+#wide-nav .navbar h5 {
+  color: #272a31;
+}
+
+#nav-menu {
+  position: relative;
+  left: 175px;
+}
+
+.cover-text {
+  position: relative;
+  top: 60px;
+}
+
+.cover-image {
+  position: relative;
+  background-image: url("../img/crowd-1056764__340.webp");
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-image-about {
+  position: relative;
+  background-image: url("../img/band-4671748__340.webp");
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), white);
+  opacity: 0.7;
+}
+
+.cover-gradient-about {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), white);
+  opacity: 0.97;
+}
+
+.cover-gradient .cover-text h2 {
+  color: #ec5242;
+}
+
+.ticket-text h1 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.cover-gradient .cover-text h1 {
+  color: #ec5242;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.cover-gradient-about .cover-text-about h1 {
+  color: #ec5242;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.info-box {
+  max-width: 480px;
+  height: auto;
+  margin-top: 95px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 7px;
+  box-shadow: 5px #272a31;
+  background-color: white;
+}
+
+.info-date {
+  margin-top: 60px;
+  color: #272a31;
+}
+
+.info-box-about {
+  width: 100%;
+  height: auto;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 7px;
+  box-shadow: 5px #272a31;
+  text-align: center;
+  background-color: white;
+  justify-self: center;
+}
+
+.info-date-about {
+  color: #272a31;
+  text-align: center;
+  padding: 15px;
+}
+
+.ticket-box {
+  width: 100%;
+}
+
+.cover-ticket {
+  background-image: url("../img/mail-2485217_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border: 5px dashed red;
+}
+
+.content-table thead th {
+  background-color: #d3d3d3;
+  text-align: center;
+  border: 1px solid #272a31;
+  padding: 15px;
+}
+
+.content-table tbody td {
+  text-align: center;
+  border: 1px solid #272a31;
+  padding: 15px;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #b2d3f8;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #e9f2f5;
+}
+
+.ticket-box .my-button {
+  margin: 0 auto;
+}
+
+#main-footer {
+  background-color: #272a31;
+}
+
+@media screen and (max-width: 767px) {
+  #top-bar {
+    display: none;
+  }
+
+  #wide-nav {
+    background: url("../img/vinyl-3557749__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+  }
+
+  #wide-nav button {
+    border: 2px solid black;
+  }
+
+  #wide-nav .navbar img {
+    display: none;
+  }
+
+  #wide-nav .navbar h5 {
+    display: none;
+  }
+
+  #main-footer {
+    display: none;
+  }
+}
