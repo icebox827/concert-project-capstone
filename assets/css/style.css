@@ -339,6 +339,37 @@ table {
   margin: 0 auto;
 }
 
+.partner-section {
+  background-color:#272a31;
+}
+
+.partner-title h1 {
+  color: #f0eeee;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.partner-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.partner-brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  padding-bottom: 80px;
+}
+
+.brand h4 {
+ color: #d3d3d3;
+ overflow-y: hidden;
+ font-size: bold;
+}
+
 @media screen and (max-width: 767px) {
   #top-bar {
     display: none;
