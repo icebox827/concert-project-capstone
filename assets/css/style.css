@@ -67,6 +67,12 @@ a {
   float: left;
 }
 
+.speaker .mobile img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
 #wide-nav .navbar img {
   width: 120px;
   height: 80px;
@@ -353,12 +359,6 @@ table {
   overflow-y: hidden;
 }
 
-.speaker hr {
-  border: 1px solid #272a31;
-  width: 20%;
-  margin: 0 auto;
-}
-
 .partner-section {
   background-color: #272a31;
 }
@@ -484,36 +484,8 @@ table {
 
   .speaker {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: 5px;
-  }
-
-  .speaker h3 {
-    font-size: bold;
-    text-align: center;
-  }
-
-  .speaker h6 {
-    color: #ec5242;
-    text-align: center;
-    font-style: italic;
-    overflow-y: hidden;
-  }
-
-  .speaker p {
-    text-align: center;
-  }
-
-  .speaker hr {
-    border: 1px solid #272a31;
-    width: 20%;
-    margin: 0 auto;
-  }
-
-  .speaker img {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
   }
 
   .fest-card {
