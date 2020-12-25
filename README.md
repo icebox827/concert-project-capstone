@@ -12,11 +12,11 @@ Design idea by Cindy Shin in Behance
 
 > Project's Screeshot
 
-![app_screenshot.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot.png?raw=true)
-![app_screenshot1.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot1.png?raw=true)
-![app_screenshot2.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot2.png?raw=true)
-![app_screenshot3.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot3.png?raw=true)
-![app_screenshot4.PNG](https://github.com/icebox827/concert-project-capstone/blob/dev/app_screenshot4.png?raw=true)
+![app_screenshot.PNG](https://github.com/icebox827/concert-project-capstone/blob/concert-page-frontend/assets/img/app_screenshot.png?raw=true)
+![app_screenshot1.PNG](https://github.com/icebox827/concert-project-capstone/blob/concert-page-frontend/assets/img/app_screenshot1.png?raw=true)
+![app_screenshot2.PNG](https://github.com/icebox827/concert-project-capstone/blob/concert-page-frontend/assets/img/app_screenshot2.png?raw=true)
+![app_screenshot3.PNG](https://github.com/icebox827/concert-project-capstone/blob/concert-page-frontend/assets/img/app_screenshot3.png?raw=true)
+![app_screenshot4.PNG](https://github.com/icebox827/concert-project-capstone/blob/concert-page-frontend/assets/img/app_screenshot4.png?raw=true)
 
 ## Built With
 
