@@ -228,6 +228,11 @@ table {
   background-color: #272a31;
 }
 
+.program-card {
+  display: flex;
+  justify-content: center;
+}
+
 .program-cover {
   background-image: url("../img/istockphoto-1191995863-170667a.jpg");
   background-repeat: no-repeat;
@@ -246,10 +251,19 @@ table {
   margin: 0 auto;
 }
 
+.program-link h4 {
+  color: #d3d3d3;
+  text-align: center;
+  margin-top: 50px;
+  overflow-y: hidden;
+  padding-bottom: 30px;
+}
+
 .program-card .card {
   width: 100%;
   height: auto;
   margin: 5px;
+  border: none;
 }
 
 .program-card .card-icon a {
@@ -298,5 +312,11 @@ table {
 
   #main-footer {
     display: none;
+  }
+
+  .program-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
