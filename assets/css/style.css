@@ -318,7 +318,7 @@ table {
   border: 1px solid #272a31;
 }
 
-.ticket-button h6 {
+.ticket-button span {
   color: #ec5242;
   text-transform: uppercase;
   overflow-y: hidden;
