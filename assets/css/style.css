@@ -89,8 +89,10 @@ a {
 }
 
 .join-button {
-  border: 2px solid #ec5242;
-  margin-left: 185px;
+  border: 3px solid #ec5242;
+  margin-left: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .cover-text {
