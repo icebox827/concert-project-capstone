@@ -59,13 +59,17 @@ a {
 #nav-menu {
   position: relative;
   display: flex;
-  left: 170px;
+
   justify-content: space-between;
+}
+
+#wide-nav .navbar .mobile-button {
+  display: none;
 }
 
 .join-button {
   border: 3px solid #ec5242;
-  margin-left: 160px;
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -444,6 +448,11 @@ table {
     opacity: 0.3;
   }
 
+  #wide-nav .navbar li a {
+    color: #ec5242;
+    font-size: bold;
+  }
+
   #wide-nav button {
     border: 2px solid black;
   }
@@ -454,6 +463,11 @@ table {
 
   #wide-nav .navbar h5 {
     display: none;
+  }
+
+  #wide-nav .navbar .join-button {
+    border: none;
+    padding: 0;
   }
 
   #main-footer {
@@ -491,4 +505,8 @@ table {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  #wide-nav .navbar .join-button {
+    border: none;
+    padding: 0;
+  }
 }
