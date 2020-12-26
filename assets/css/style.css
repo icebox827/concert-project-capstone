@@ -95,7 +95,7 @@ a {
 .speaker-img img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .logo-image img {
@@ -591,6 +591,12 @@ table {
   .speaker h3 {
     font-size: bold;
     padding-left: 10px;
+  }
+
+  .speaker-panel {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
   }
 
   .speaker h6 {
