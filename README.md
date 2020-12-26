@@ -30,7 +30,7 @@ Design idea by Cindy Shin in Behance
 
 ## Live Video 
 
-[Live Video link](https://www.loom.com/share/3fe0268df7dd4c59b97106b1c465ce0e)
+[Live Video link](https://www.loom.com/share/570cdb5202054c77971ec63e70b840d1)
 
 ## Getting Started
 
