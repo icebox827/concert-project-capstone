@@ -88,7 +88,7 @@ a {
   width: 85px;
   height: 45px;
 }
- 
+
 .speaker-img img {
   width: 100%;
   height: 100%;
@@ -277,8 +277,49 @@ table {
   padding: 15px;
 }
 
+.workshop-table {
+  border: 1px solid #272a31;
+}
+
+.workshop-table thead th {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 15px;
+}
+
+.workshop-table tbody td {
+  text-align: center;
+  padding: 15px;
+}
+
 .ticket-box .my-button {
   margin: 0 auto;
+}
+
+.ticket-box .my-button {
+  margin: 0 auto;
+}
+
+.ticket-text hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.ticket-box .my-button {
+  margin: 0 auto;
+}
+
+.ticket-button button {
+  border-radius: 25px;
+  border: 1px solid #272a31;
+}
+
+.ticket-button h6 {
+  color: #ec5242;
+  text-transform: uppercase;
+  overflow-y: hidden;
+  padding-right: 15px;
 }
 
 #main-footer {
@@ -324,7 +365,7 @@ table {
 .past-fest-title p {
   color: #272a31;
   text-align: center;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .logo-title p {
