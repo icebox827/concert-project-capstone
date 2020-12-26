@@ -566,7 +566,7 @@ table {
     flex-direction: column;
   }
 
-  .ticket-button button {
+  .container .ticket-button button {
     visibility: hidden;
   }
 }
