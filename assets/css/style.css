@@ -299,17 +299,9 @@ table {
   margin: 0 auto;
 }
 
-.ticket-box .my-button {
-  margin: 0 auto;
-}
-
 .ticket-text hr {
   border: 1px solid #ec5242;
   width: 10%;
-  margin: 0 auto;
-}
-
-.ticket-box .my-button {
   margin: 0 auto;
 }
 
@@ -573,7 +565,7 @@ table {
     justify-content: space-between;
     flex-direction: column;
   }
-  
+
   .ticket-button button {
     visibility: hidden;
   }
