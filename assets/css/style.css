@@ -56,10 +56,10 @@ a {
 #wide-nav {
   background-color: #fffbfb;
 }
+
 #nav-menu {
   position: relative;
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -69,7 +69,6 @@ a {
 
 .join-button {
   border: 3px solid #ec5242;
-
   padding-left: 15px;
   padding-right: 15px;
 }
