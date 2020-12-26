@@ -42,8 +42,11 @@ a {
 }
 
 .program-card .card-icon a {
+  display: flex;
+  justify-content: center;
   color: #272a31;
   margin: 0 auto;
+  text-align: center;
 }
 
 #top-bar a {
