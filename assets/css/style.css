@@ -88,7 +88,7 @@ a {
   width: 85px;
   height: 45px;
 }
-
+ 
 .speaker-img img {
   width: 100%;
   height: 100%;
@@ -158,6 +158,7 @@ a {
   font-weight: 800;
   font-size: 120px;
   text-align: center;
+  margin-top: 90px;
 }
 
 .cover-gradient .cover-text h2 {
@@ -412,8 +413,9 @@ table {
 
 .fest-card .card {
   width: 100%;
-  height: 100%;
+  height: 350px;
   margin: 10px;
+  object-fit: cover;
 }
 
 .logo-title hr {
@@ -444,14 +446,14 @@ table {
   background-image: url("../img/concert-1748102__340.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
+  height: 350px;
 }
 
 .fest-cover-2 {
   background-image: url("../img/concert-359012__340.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
+  height: 350px;
 }
 
 .fest-gradient {
