@@ -56,6 +56,30 @@ a {
 #wide-nav {
   background-color: #fffbfb;
 }
+#nav-menu {
+  position: relative;
+  display: flex;
+  left: 170px;
+  justify-content: space-between;
+}
+
+.join-button {
+  border: 3px solid #ec5242;
+  margin-left: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.program-card {
+  display: flex;
+  justify-content: center;
+}
+
+.fest-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .footer-nav img {
   width: 85px;
@@ -79,20 +103,6 @@ a {
 
 #wide-nav .navbar h5 {
   color: #272a31;
-}
-
-#nav-menu {
-  position: relative;
-  display: flex;
-  left: 170px;
-  justify-content: space-between;
-}
-
-.join-button {
-  border: 3px solid #ec5242;
-  margin-left: 160px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .cover-text {
@@ -254,14 +264,6 @@ table {
   text-align: center;
   border: 1px solid #272a31;
   padding: 15px;
-}
-
-.content-table tbody tr:nth-of-type(odd) {
-  background-color: #b2d3f8;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #e9f2f5;
 }
 
 .ticket-box .my-button {
@@ -488,15 +490,5 @@ table {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .program-card {
-    display: flex;
-    justify-content: center;
-  }
-
-  .fest-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+@media screen and (min-width: 768px) and (max-width: 991px) {
 }
