@@ -95,6 +95,13 @@ a {
   object-fit: fill;
 }
 
+.logo-image img {
+  width: 350px;
+  height: 200px;
+  border: 1px #d3d3d3 solid;
+  padding: 20px 80px 20px 80px;
+}
+
 #wide-nav .navbar img {
   width: 120px;
   height: 80px;
@@ -316,6 +323,12 @@ table {
 .past-fest-title p {
   color: #272a31;
   text-align: center;
+  margin-top: 15px; 
+}
+
+.logo-title p {
+  color: #272a31;
+  text-align: center;
   margin-top: 15px;
 }
 
@@ -401,6 +414,18 @@ table {
   width: 100%;
   height: 100%;
   margin: 10px;
+}
+
+.logo-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.logo-title h3 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .past-fest-title h3 {
