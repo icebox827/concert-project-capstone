@@ -305,6 +305,11 @@ table {
   margin: 0 auto;
 }
 
+.ticket-button {
+  display: flex;
+  justify-content: center;
+}
+
 .ticket-button button {
   border-radius: 25px;
   border: 1px solid #272a31;
@@ -564,10 +569,6 @@ table {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-  }
-
-  .container .ticket-button button {
-    visibility: hidden;
   }
 }
 
