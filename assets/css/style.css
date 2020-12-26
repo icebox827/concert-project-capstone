@@ -68,12 +68,6 @@ a {
   float: left;
 }
 
-.speaker .mobile img {
-  width: 180px;
-  height: 180px;
-  margin: 0 auto;
-}
-
 #wide-nav .navbar img {
   width: 120px;
   height: 80px;
@@ -89,7 +83,14 @@ a {
 
 #nav-menu {
   position: relative;
-  left: 175px;
+  display: flex;
+  left: 170px;
+  justify-content: space-between;
+}
+
+.join-button {
+  border: 2px solid #ec5242;
+  margin-left: 185px;
 }
 
 .cover-text {
@@ -269,11 +270,6 @@ table {
   background-color: #272a31;
 }
 
-.program-card {
-  display: flex;
-  justify-content: center;
-}
-
 .program-cover {
   background-image: url("../img/istockphoto-1191995863-170667a.jpg");
   background-repeat: no-repeat;
@@ -393,12 +389,6 @@ table {
   color: #272a31;
 }
 
-.fest-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .fest-card .card {
   width: 100%;
   height: 100%;
@@ -438,7 +428,7 @@ table {
   opacity: 0.7;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   #top-bar {
     display: none;
   }
@@ -493,5 +483,18 @@ table {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .program-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fest-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
