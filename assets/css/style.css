@@ -92,9 +92,10 @@ a {
   height: 45px;
 }
 
-.speaker-img img {
+.speaker .speaker-img img {
   width: 100%;
   height: 100%;
+  float: left;
   object-fit: cover;
 }
 
@@ -408,6 +409,7 @@ table {
 .speaker-panel {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .speaker {
