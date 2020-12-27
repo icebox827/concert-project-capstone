@@ -66,10 +66,6 @@ a {
   justify-content: space-between;
 }
 
-#wide-nav .navbar .mobile-button {
-  display: none;
-}
-
 .join-button {
   border: 3px solid #ec5242;
   padding-left: 15px;
@@ -113,10 +109,6 @@ a {
 
 .footer-nav h5 {
   color: #d3d3d3;
-}
-
-#wide-nav .navbar h5 {
-  color: #272a31;
 }
 
 .cover-text {
