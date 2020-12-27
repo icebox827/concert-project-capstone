@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h2 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h3 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+h5 {
+  overflow-y: hidden;
+  margin: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top-bar {
+  background-color: #272a31;
+}
+
+.program-card .card-icon a {
+  display: flex;
+  justify-content: center;
+  color: #272a31;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#top-bar a {
+  color: #d3d3d3;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#wide-nav {
+  background-color: #fffbfb;
+}
+
+#nav-menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-button {
+  border: 3px solid #ec5242;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.program-card {
+  display: flex;
+  justify-content: center;
+}
+
+.fest-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav img {
+  width: 85px;
+  height: 45px;
+}
+
+.logo-image img {
+  width: 350px;
+  height: 200px;
+  border: 1px #d3d3d3 solid;
+  padding: 20px 80px 20px 80px;
+}
+
+.speaker .speaker-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#wide-nav .navbar img {
+  width: 120px;
+  height: 80px;
+}
+
+.footer-nav h5 {
+  color: #d3d3d3;
+}
+
+.cover-text {
+  position: relative;
+  top: 60px;
+}
+
+.cover-image {
+  position: relative;
+  background-image: url("../img/crowd-1056764__340.webp");
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-image-about {
+  position: relative;
+  background-image: url("../img/band-4671748__340.webp");
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), white);
+  opacity: 0.7;
+}
+
+.cover-gradient-about {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), white);
+  opacity: 0.97;
+}
+
+.fest-date h2 {
+  font-weight: 800;
+  font-size: 120px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.cover-gradient .cover-text h2 {
+  color: #ec5242;
+}
+
+.ticket-text h1 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.program-title h1 {
+  color: #d3d3d3;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.speaker-title h1 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.partner-title h1 {
+  color: #f0eeee;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cover-gradient .cover-text h1 {
+  color: #ec5242;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.cover-gradient-about .cover-text-about h1 {
+  color: #ec5242;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.info-box {
+  max-width: 480px;
+  height: auto;
+  margin-top: 95px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 7px;
+  box-shadow: 5px #272a31;
+  background-color: white;
+}
+
+.info-date {
+  margin-top: 60px;
+  color: #272a31;
+  padding-bottom: 120px;
+}
+
+.info-box-about {
+  width: 100%;
+  height: auto;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 7px;
+  box-shadow: 5px #272a31;
+  text-align: center;
+  background-color: white;
+  justify-self: center;
+}
+
+.info-date-about {
+  color: #272a31;
+  text-align: center;
+  padding: 15px;
+}
+
+.ticket-box {
+  width: 100%;
+}
+
+.cover-ticket {
+  background-image: url("../img/mail-2485217_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border: 5px dashed red;
+}
+
+.content-table thead th {
+  background-color: #d3d3d3;
+  text-align: center;
+  border: 1px solid #272a31;
+  padding: 15px;
+}
+
+.content-table tbody td {
+  text-align: center;
+  border: 1px solid #272a31;
+  padding: 15px;
+}
+
+.workshop-table {
+  border: 1px solid #272a31;
+}
+
+.workshop-table thead th {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 15px;
+}
+
+.workshop-table tbody td {
+  text-align: center;
+  padding: 15px;
+}
+
+.ticket-box .my-button {
+  margin: 0 auto;
+}
+
+.ticket-text hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.ticket-button {
+  display: flex;
+  justify-content: center;
+}
+
+.ticket-button button {
+  border-radius: 25px;
+  border: 1px solid #272a31;
+}
+
+.ticket-button span {
+  color: #ec5242;
+  text-transform: uppercase;
+  overflow-y: hidden;
+  padding-right: 15px;
+}
+
+#main-footer {
+  background-color: #272a31;
+}
+
+.program-cover {
+  background-image: url("../img/istockphoto-1191995863-170667a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program-cover-1 {
+  background-image: url("../img/istockphoto-1191995863-170667a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 338px;
+}
+
+.program-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.program-link h4 {
+  color: #d3d3d3;
+  text-align: center;
+  margin-top: 50px;
+  overflow-y: hidden;
+  padding-bottom: 80px;
+}
+
+.program-card .card {
+  width: 100%;
+  height: 334px;
+  margin: 5px;
+  border: none;
+  object-fit: cover;
+}
+
+.program-card .card-title {
+  color: #ec5242;
+  text-align: center;
+}
+
+.speaker p {
+  padding-left: 20px;
+}
+
+.past-fest-title p {
+  color: #272a31;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.logo-title p {
+  color: #272a31;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.program-card .card-content p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cover-gradient-program {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(207, 207, 207), white);
+  opacity: 0.7;
+}
+
+.featured-section {
+  background-color: #f0eeee;
+}
+
+.speaker-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.speaker-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.speaker {
+  width: 100%;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.speaker h3 {
+  font-size: bold;
+  padding-left: 20px;
+}
+
+.speaker h6 {
+  color: #ec5242;
+  padding-left: 20px;
+  font-style: italic;
+  overflow-y: hidden;
+}
+
+.partner-section {
+  background-color: #272a31;
+}
+
+.partner-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.partner-brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  padding-bottom: 80px;
+}
+
+.brand h4 {
+  color: #d3d3d3;
+  overflow-y: hidden;
+  font-size: bold;
+}
+
+#main-footer-intro {
+  background-color: #f0eeee;
+}
+
+#main-footer-intro .footer-nav h5 {
+  color: #272a31;
+}
+
+.fest-card .card {
+  width: 100%;
+  height: 350px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.logo-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.logo-title h3 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.past-fest-title h3 {
+  color: #272a31;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.past-fest-title hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.fest-cover-1 {
+  background-image: url("../img/concert-1748102__340.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.fest-cover-2 {
+  background-image: url("../img/concert-359012__340.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.fest-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(248, 82, 82), white);
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #top-bar {
+    display: none;
+  }
+
+  #wide-nav {
+    background: url("../img/vinyl-3557749__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+  #wide-nav .navbar li a {
+    color: #ec5242;
+    font-size: bold;
+    margin: -1px;
+  }
+
+  #wide-nav button {
+    border: 2px solid black;
+  }
+
+  #wide-nav .navbar img {
+    display: none;
+  }
+
+  #wide-nav .navbar h5 {
+    display: none;
+  }
+
+  #wide-nav .navbar .join-button {
+    border: none;
+    padding: 0;
+  }
+
+  #main-footer {
+    display: none;
+  }
+
+  .program-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .partner-brand {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .speaker-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+
+  .fest-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #wide-nav .navbar .join-button {
+    border: none;
+    padding: 0;
+  }
+
+  #wide-nav .navbar li a {
+    padding-left: 2px;
+  }
+
+  .program-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .speaker h3 {
+    font-size: bold;
+    padding-left: 10px;
+  }
+
+  .speaker-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+
+  .speaker h6 {
+    color: #ec5242;
+    padding-left: 10px;
+    font-style: italic;
+    overflow-y: hidden;
+  }
+
+  .speaker p {
+    padding-left: 10px;
+  }
+}
