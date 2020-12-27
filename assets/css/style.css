@@ -88,17 +88,17 @@ a {
   height: 45px;
 }
 
-.speaker .speaker-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .logo-image img {
   width: 350px;
   height: 200px;
   border: 1px #d3d3d3 solid;
   padding: 20px 80px 20px 80px;
+}
+
+.speaker .speaker-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #wide-nav .navbar img {
@@ -321,15 +321,15 @@ table {
 .program-cover {
   background-image: url("../img/istockphoto-1191995863-170667a.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .program-cover-1 {
-    background-image: url("../img/istockphoto-1191995863-170667a.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 338px;
-  }
+  background-image: url("../img/istockphoto-1191995863-170667a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 338px;
+}
 
 .program-title hr {
   border: 1px solid #ec5242;
