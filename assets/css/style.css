@@ -513,12 +513,13 @@ table {
     background: url("../img/vinyl-3557749__340.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.8;
   }
 
   #wide-nav .navbar li a {
     color: #ec5242;
     font-size: bold;
+    margin: -1px;
   }
 
   #wide-nav button {
