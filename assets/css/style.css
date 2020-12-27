@@ -599,7 +599,12 @@ table {
   .speaker-panel {
     display: flex;
     flex-direction: column;
-    object-fit: cover;
+  }
+
+  .speaker {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
   }
 
   .speaker h6 {

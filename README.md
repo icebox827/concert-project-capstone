@@ -3,7 +3,7 @@ Microverse Capstone Project
 
 # Rock Concert Page
 It is a front-end web development project. This project is about building a website for a concert using technologies like HTML, CSS, and Bootstrap. In this project, we have a portal and two links, one is the about page and the other to book tickets for the concert.
-It's a responsive project suitable for mobile and desktop views. The puspose of this project is to create a meaningful website for the a production company whic job is to create event and also provide the possibilities users to schedule and buy ticket only.
+It's a responsive project suitable for mobile and desktop views. The purpose of this project is to create a meaningful website for the production company whose job is to create the event and also provide the possibilities for users to schedule and buy the ticket only.
 
 # Credits
 Design idea by Cindy Shin in Behance
