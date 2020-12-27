@@ -329,8 +329,15 @@ table {
 .program-cover {
   background-image: url("../img/istockphoto-1191995863-170667a.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
+
+.program-cover-1 {
+    background-image: url("../img/istockphoto-1191995863-170667a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 338px;
+  }
 
 .program-title hr {
   border: 1px solid #ec5242;
@@ -348,9 +355,10 @@ table {
 
 .program-card .card {
   width: 100%;
-  height: 100%;
+  height: 334px;
   margin: 5px;
   border: none;
+  object-fit: cover;
 }
 
 .program-card .card-title {
