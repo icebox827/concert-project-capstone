@@ -1,5 +1,5 @@
 # concert-project-capstone
-Microverse Capstone Project
+Microverse Capstone, front-End web development project built with HTML, CSS, and Bootstrap
 
 # Rock Concert Page
 It is a front-end web development project. This project is about building a website for a concert using technologies like HTML, CSS, and Bootstrap. In this project, we have a portal and two links, one is the about page and the other to book tickets for the concert.
